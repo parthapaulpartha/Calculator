@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    margin: 0 auto;
+    max-width: 360px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.claculator:hover{
+    text-shadow: 5px 5px gray; 
+}
+
+.card{
+    text-align: center;
+    margin-top: 10px;
+    margin: 0 auto;
+    max-width: 360px;
+    padding: 0px;
+    box-shadow: 0 5px 9px 0 black;
+    transition: 0.3s;
+    font-size: 0px;
+}
+
+.card:hover{
+    box-shadow: 0 17px 40px 0 black;
+}
+
+ .card-head #cal-text{
+    width: 347px;
+    height: 100px;
+    font-size: 35px;
+    margin-top: 5px;
+    border: 2px solid rgba(32, 32, 112, 0.61);
+    border-radius: 0.3rem;
+    border-width: bold;
+    /* border-color: darkcyan; */
+    text-align: right;
+    letter-spacing: 2px;
+    padding: 0 2px;
+    outline: 0;
+    margin-bottom: 2px;
+}
+
+.card-head #cal-text:hover{
+    background-color: rgba(0, 0, 0, 0.781);
+    color: blanchedalmond;
+    border: 2px solid gray;
+}
+
+.card-body .btn{
+    width: 90px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.822);   
+    color: white;
+}
+
+.card-body .btn:hover{
+    background-color: rgba(58, 22, 105, 0.767);
+}
